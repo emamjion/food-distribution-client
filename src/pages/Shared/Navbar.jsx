@@ -40,7 +40,7 @@ const Navbar = () => {
 ];
 
     return (
-    <div className="flex justify-between items-center w-full h-20 px-4 border-b border-b-gray-300 bg-white sticky top-0">
+    <div className="flex justify-between items-center w-full h-20 px-4 border-b border-b-gray-300 bg-white sticky top-0 z-[10]">
         <div>
             <h1 className="text-4xl font-semibold">FoodFlow</h1>
         </div>
